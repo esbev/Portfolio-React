@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+.nameHeader {
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 0px 15px black;
+  transition: color 4s;
+  transition: text-shadow 2s;
+}
+
+.nameHeader:hover {
+  color: grey;
+  text-shadow: 0px 0px 15px white;
+}
