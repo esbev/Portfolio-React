@@ -6,44 +6,45 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs justify-content-end">
-      <li className="nav-item">
-        <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
-          Home
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/About"
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}>
-          About
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/Projects"
-          className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}>
-          Projects
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>
-          Resume
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </Link>
-      </li>
-    </ul>
+    <div>
+      <ul className="nav justify-content-end">
+        <li className="nav-item">
+          <Link
+            to="/"
+            className={currentPage === '/' ? 'nav-link-active' : 'nav-link'}>
+            <label className='custom-text'>Home</label>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/Projects"
+            className={currentPage === '/Projects' ? 'nav-link-active' : 'nav-link'}>
+            <label className='custom-text'>Projects</label>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/Resume"
+            className={currentPage === '/Resume' ? 'nav-link-active' : 'nav-link'}>
+            <label>Resume</label>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/Contact"
+            className={currentPage === '/Contact' ? 'nav-link-active' : 'nav-link'}
+          >
+            <label className='custom-text'>Contact</label>
+          </Link>
+        </li>
+      </ul>
+        <div className="top-decor nav">
+          <Link
+            to="/About">
+            <img></img>
+          </Link>
+        </div>
+    </div>
   );
 }
 

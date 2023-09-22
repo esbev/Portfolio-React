@@ -33,6 +33,27 @@
   }
 }
 
+body {
+  background-color: rgb(144, 144, 144);
+}
+
+.custom-bg {
+  background-color: transparent;
+  border: none;
+}
+
+.nav-link-active {
+  color: red!important;
+}
+
+.nav-link {
+  color: black!important;
+}
+
+.nav-link:hover {
+  color: red!important;
+}
+
 .card {
   padding: 2em;
 }
@@ -40,7 +61,7 @@
 .read-the-docs {
   color: #888;
 }
-
+/* header */
 .nameHeader {
   font-size: 48px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -52,4 +73,58 @@
 .nameHeader:hover {
   color: grey;
   text-shadow: 0px 0px 15px white;
+}
+
+/* decoration */
+.top-decor {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  margin: auto;
+  background-image: url("./assets/images/tech-background.jpg");
+  box-shadow: inset 0px 0px 10px black, 0 0 15px black;
+  opacity: .9;
+}
+.top-decor img {
+  background-image: url(./assets/images/esbev.jpg);
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 30px;
+  margin-top: 25px;
+  box-shadow: inset 0 0 0 0, 0 0 7px whitesmoke;
+}
+
+
+/* contact page */
+.contact {
+  display: inline-block;
+  width: 100%;
+}
+
+.contact ul {
+  float: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.contact li {
+  display: inline-block;
+  color:  rgb(51, 1, 1);
+  padding: 10px;
+}
+
+.contact a {
+  color: rgb(209, 29, 29);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-shadow: none;
+  border-bottom: 1px solid rgb(209, 29, 29);
+  border-bottom-style: groove;
+  transition: text-shadow .5s;
+}
+
+.contact a:hover {
+  text-shadow: 0 0 3px black;
 }

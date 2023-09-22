@@ -3,7 +3,7 @@
 function Header() {
   return (
     <div>
-      <h1 className="nameHeader">Eric Beverly</h1>
+      <h1 className="nameHeader">Eric S. Beverly</h1>
     </div>
   );
 }
