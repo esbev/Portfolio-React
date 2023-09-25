@@ -13,9 +13,9 @@ A website to use as a portfolio to display my work to potential employers. This 
 
 ## Website Preview
 
-[Personal Portfolio](https://esbev.github.io/Portfolio-React/)
+[Personal Portfolio](https://esbev-portfolio.netlify.app/)
 
-[![name](./src/assets/images/ss.png)](https://esbev.github.io/Portfolio-React/)
+[![name](./src/assets/images/ss.png)](https://esbev-portfolio.netlify.app/)
 
 ## License
 
