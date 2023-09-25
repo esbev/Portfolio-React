@@ -41,7 +41,7 @@ function NavTabs() {
         <div className="top-decor nav">
           <Link
             to="/About">
-            <img></img>
+            <img src='https://ik.imagekit.io/z2zvp5n2o/esbev.jpg?updatedAt=1695683629316'></img>
           </Link>
         </div>
     </div>
