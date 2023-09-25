@@ -83,13 +83,13 @@ body {
   height: 150px;
   margin-bottom: 10px;
   margin: auto;
-  background-image: url("./assets/images/tech-background.jpg");
+  background-image: url("https://ik.imagekit.io/z2zvp5n2o/tech-background.jpg?updatedAt=1695683629547");
   box-shadow: inset 0px 0px 10px black, 0 0 15px black;
   border-radius: 20px;
   opacity: .9;
 }
 .top-decor img {
-  background-image: url(./assets/images/esbev.jpg);
+  background-image: url("https://ik.imagekit.io/z2zvp5n2o/img2.jpg?updatedAt=1695683630077");
   height: 100px;
   width: 100px;
   border-radius: 50px;
