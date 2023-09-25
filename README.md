@@ -8,8 +8,8 @@
 A website to use as a portfolio to display my work to potential employers. This project was used as a learning experience to take an idea and translate that idea into a website using React. This website gives me a current base to display my work as I continue through the bootcamp course.
 
 ## Table of Contents
-    - [Website Preview](#website-preview)
-    - [License](#license)
+- [Website Preview](#website-preview)
+- [License](#license)
 
 ## Website Preview
 
