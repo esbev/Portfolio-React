@@ -7,7 +7,7 @@ function NavTabs() {
 
   return (
     <div>
-      <ul className="nav justify-content-end">
+      <ul className="nav justify-content-center">
         <li className="nav-item">
           <Link
             to="/"
@@ -24,9 +24,9 @@ function NavTabs() {
         </li>
         <li className="nav-item">
           <Link
-            to="/Resume"
+            to="https://docs.google.com/document/d/1OiVA_dqIK-SN91pzfAlWto-QnPZPaU7x5FSL5OVjmPw/edit?usp=sharing"
             className={currentPage === '/Resume' ? 'nav-link-active' : 'nav-link'}>
-            <label>Resume</label>
+            <label><a>Resume</a></label>
           </Link>
         </li>
         <li className="nav-item">
