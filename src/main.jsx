@@ -8,8 +8,8 @@ import './App.css';
 
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/Home';
 import About from './pages/About';
+import Secret from './pages/Secret';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
@@ -23,10 +23,6 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
         element: <About />,
       },
       {
@@ -40,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/Secret',
+        element: <Secret />,
       },
     ],
   },

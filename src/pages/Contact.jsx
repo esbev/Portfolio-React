@@ -1,12 +1,61 @@
 export default function Contact() {
   return (
-    <div className="contact card custom-bg">
-      <ul>
-        <li><a href="#">esbev@hotmail.com</a></li>
-        <li><a href="https://www.linkedin.com/in/esbev/"><img className="contact-img" src="https://ik.imagekit.io/z2zvp5n2o/linkedin.png?updatedAt=1695683630002"></img></a></li>
-        <li><a href="https://www.github.com/esbev"><img className="contact-img" src="https://ik.imagekit.io/z2zvp5n2o/github.png?updatedAt=1695683629615"></img></a></li>
-        <li><a href="https://twitter.com/esbev716"><img className="contact-img" src="https://ik.imagekit.io/z2zvp5n2o/twitter.png?updatedAt=1695683815520"></img></a></li>
-      </ul>
+    <div className="justify-content-center">
+      <div className="contact card custom-bg " >
+      <form className="needs-validation " noValidate>
+        <div className="row g-3 text-start">
+          <div className="col-sm-4">
+            <label htmlFor="validationCustom01" className="form-label">First name</label>
+            <input type="text" className="form-control" id="validationCustom01" required></input>
+            <div className="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+
+        <div className="row g-3 text-start">
+          <div className="col-sm-4">
+            <label htmlFor="validationCustom02" className="form-label">Last name</label>
+            <input type="text" className="form-control" id="validationCustom02" required></input>
+            <div className="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+
+        <div className="row g-3 text-start">
+          <div className="col-sm-4 ">
+            <label htmlFor="validationCustom03" className="form-label ">Email</label>
+            <input type="email" className="form-control" id="validationCustom03" aria-describedby="emailHelp" required></input>
+            <div className="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+          
+        <div className="row g-3 text-start">
+          <div className="col-sm-4">
+              <label className="form-label">Tell me what is on your mind.</label>
+              <textarea className="form-control" aria-label="With textarea"></textarea>
+          </div>
+        </div>
+
+        <div className="row g-3 ">
+          <div className="">
+              <label></label>
+          </div>
+        </div>
+        
+        <div className="row g-3 ">
+          <div className="col-sm-4">
+            <button id="submit" className="btn btn-danger" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+      </div>
+
+      <script src="../assets/js/contact.js"></script>
+
     </div>
   );
 }

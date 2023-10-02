@@ -99,15 +99,17 @@ body {
 
 /* home page */
 p {
-  font-size: 1.5em;
-  text-shadow: 2px 2px 4px rgb(255, 205, 205);
+  font-size: 1.3em;
 }
 
 
 /* contact page */
 .contact {
-  display: inline-block;
   width: 100%;
+}
+
+.contact card {
+  align-content: center!important;
 }
 
 .contact ul {
@@ -138,11 +140,11 @@ p {
 }
 
 .contact-img {
-  width: 50px;
+  width: 25px;
 }
 
-.contact-img:hover {
-  width: 60px;
+.contact-img2 {
+  width: 40px;
 }
 
 /* projects page */

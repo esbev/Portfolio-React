@@ -12,7 +12,7 @@ function NavTabs() {
           <Link
             to="/"
             className={currentPage === '/' ? 'nav-link-active' : 'nav-link'}>
-            <label className='custom-text'>Home</label>
+            <label className='custom-text'>About</label>
           </Link>
         </li>
         <li className="nav-item">
@@ -24,7 +24,7 @@ function NavTabs() {
         </li>
         <li className="nav-item">
           <Link
-            to="https://docs.google.com/document/d/1OiVA_dqIK-SN91pzfAlWto-QnPZPaU7x5FSL5OVjmPw/edit?usp=sharing"
+            to="/Resume"
             className={currentPage === '/Resume' ? 'nav-link-active' : 'nav-link'}>
             <label><a>Resume</a></label>
           </Link>
@@ -40,7 +40,7 @@ function NavTabs() {
       </ul>
         <div className="top-decor nav">
           <Link
-            to="/About">
+            to="/Secret">
             <img src='https://ik.imagekit.io/z2zvp5n2o/esbev.jpg?updatedAt=1695683629316'></img>
           </Link>
         </div>
