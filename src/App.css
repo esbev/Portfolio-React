@@ -169,6 +169,20 @@ p {
   text-shadow: 2px 2px 4px rgb(133, 62, 62);
 }
 
+/* resume page */
+
+.resume a {
+  color: rgb(209, 29, 29);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em!important;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.resume a:hover {
+  text-shadow: 0 0 3px black;
+}
+
 @media screen and (max-width: 768px) {
   
 }
