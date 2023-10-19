@@ -14,7 +14,7 @@ export default function Projects() {
           <span className="project-name">Wheels of Date Night</span>
           </div>
           <div className="col-4 col-md-3 col-sm-2">
-          <span className="project-name">Does not exist yet</span>
+          <span className="project-name">Workaholics</span>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@ export default function Projects() {
             <a href="https://esbev.github.io/project-1-collab/"><img className="project-img" src="https://ik.imagekit.io/z2zvp5n2o/img2.jpg?updatedAt=1695684532255"></img></a>
           </div>
           <div className="col-4 col-md-3 col-sm-2">
-            <a href="#"><img className="project-img" src="https://ik.imagekit.io/z2zvp5n2o/img3.jpg?updatedAt=1695684533164"></img></a>
+            <a href="https://workaholics-chat123-7583c92cc0c9.herokuapp.com/"><img className="project-img" src="https://ik.imagekit.io/z2zvp5n2o/img3.jpg?updatedAt=1695684533164"></img></a>
           </div>
         </div>
       </div>
